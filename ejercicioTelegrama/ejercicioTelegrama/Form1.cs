@@ -52,7 +52,7 @@ namespace ejercicioTelegrama
                 {
                     if (numPalabras <= 10)
                     {
-                        coste = 5;
+                        coste = 6;
                     }
                     else
                     {
