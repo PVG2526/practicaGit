@@ -52,7 +52,7 @@ namespace ejercicioTelegrama
                 {
                     if (numPalabras <= 10)
                     {
-                        coste = 5;
+                        coste = 6;
                     }
                     else
                     {
@@ -64,7 +64,7 @@ namespace ejercicioTelegrama
                     coste = 0;
                 }
             }
-            txtPrecio.Text = coste.ToString() + " euros";
+            txtPrecio.Text = coste.ToString() + " eurosss";
         }
     }
 }

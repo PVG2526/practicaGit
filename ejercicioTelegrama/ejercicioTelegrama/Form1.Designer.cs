@@ -30,10 +30,10 @@
         {
             this.lblTexto = new System.Windows.Forms.Label();
             this.txtTelegrama = new System.Windows.Forms.RichTextBox();
-            this.chkUrgente = new System.Windows.Forms.CheckBox();
             this.lblCoste = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
+            this.chkUrgente = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lblTexto
@@ -53,16 +53,6 @@
             this.txtTelegrama.Size = new System.Drawing.Size(466, 175);
             this.txtTelegrama.TabIndex = 1;
             this.txtTelegrama.Text = "";
-            // 
-            // chkUrgente
-            // 
-            this.chkUrgente.AutoSize = true;
-            this.chkUrgente.Location = new System.Drawing.Point(146, 303);
-            this.chkUrgente.Name = "chkUrgente";
-            this.chkUrgente.Size = new System.Drawing.Size(99, 24);
-            this.chkUrgente.TabIndex = 2;
-            this.chkUrgente.Text = "urgente?";
-            this.chkUrgente.UseVisualStyleBackColor = true;
             // 
             // lblCoste
             // 
@@ -92,6 +82,16 @@
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
+            // chkUrgente
+            // 
+            this.chkUrgente.AutoSize = true;
+            this.chkUrgente.Location = new System.Drawing.Point(146, 303);
+            this.chkUrgente.Name = "chkUrgente";
+            this.chkUrgente.Size = new System.Drawing.Size(99, 24);
+            this.chkUrgente.TabIndex = 2;
+            this.chkUrgente.Text = "urgente?";
+            this.chkUrgente.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -114,10 +114,10 @@
 
         private System.Windows.Forms.Label lblTexto;
         private System.Windows.Forms.RichTextBox txtTelegrama;
-        private System.Windows.Forms.CheckBox chkUrgente;
         private System.Windows.Forms.Label lblCoste;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.CheckBox chkUrgente;
     }
 }
 
